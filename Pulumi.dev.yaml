@@ -1,0 +1,3 @@
+config:
+  aws:region: us-east-1 # Change to your desired AWS region
+  aws:profile: sai # Set your AWS profile
