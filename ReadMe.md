@@ -31,7 +31,20 @@ http://localhost:3000
 - pulumi preview: preview your changes explicitly before deploying
 - pulumi destroy: destroy your program and its infrastructure when you’re done
 
+- pulumi config set aws:profile test
+
 ### Setup Pulumi to communicate with AWS 
 [https://www.pulumi.com/registry/packages/aws/installation-configuration/] (Link)
 
 ### 
+
+
+
+
+cd ../
+source venv/bin/activate
+
+pulumi new python -y
+
+pulumi config set cloud:provider aws
+pulumi config set aws:region us-east-1
